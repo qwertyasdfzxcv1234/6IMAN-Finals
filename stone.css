@@ -1,0 +1,125 @@
+.stone-washed {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.stone-washed .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.stone-washed .overlap-group {
+  position: absolute;
+  width: 2313px;
+  height: 849px;
+  top: 233px;
+  left: -208px;
+}
+
+.stone-washed .image {
+  width: 1000px;
+  height: 352px;
+  top: 495px;
+  left: 481px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.stone-washed .rectangle {
+  position: absolute;
+  width: 2313px;
+  height: 2px;
+  top: 844px;
+  left: 0;
+  background-color: #000000;
+  transform: rotate(-0.12deg);
+}
+
+.stone-washed .img {
+  width: 1283px;
+  height: 406px;
+  top: 441px;
+  left: 845px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.stone-washed .stone-washed-jeans {
+  position: absolute;
+  width: 1400px;
+  top: 50;
+  left: 481px;
+  font-family: "Afacad", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.stone-washed .image-2 {
+  width: 267px;
+  height: 258px;
+  top: 518px;
+  left: 1839px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.stone-washed .image-3 {
+  width: 274px;
+  height: 301px;
+  top: 546px;
+  left: 208px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.stone-washed .overlap {
+  position: absolute;
+  width: 580px;
+  height: 131px;
+  top: 77px;
+  left: 670px;
+}
+
+.stone-washed .text-wrapper {
+  position: absolute;
+  width: 580px;
+  top: 39px;
+  left: 0;
+  font-family: "Bokor", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.stone-washed .text-wrapper-2 {
+  position: absolute;
+  width: 300px;
+  top: -50px;
+  left: 211px;
+  font-family: "Bokor", Helvetica;
+  font-weight: 550;
+  color: #000000;
+  font-size: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.stone-washed .info {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 71px;
+  left: 1797px;
+}

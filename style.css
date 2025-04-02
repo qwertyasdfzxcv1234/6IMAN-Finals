@@ -1,0 +1,1082 @@
+.men {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.men .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 3000px;
+  position: relative;
+}
+.image-4, .image-5, .image-6, .image-9, .image-2, .img {
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+.item-target {
+  cursor: pointer;
+  transition: filter 0.3s ease !important;
+  position: relative;
+  z-index: 2;
+}
+
+.item-added {
+  filter: brightness(0.8) blur(2px) !important;
+}
+
+/* Fix overlapping issues */
+.overlap-2, .overlap-3, .overlap-group-2 {
+  position: relative;
+  z-index: 0;
+}
+.item-added {
+  filter: brightness(0.8) blur(2px);
+}
+.men .overlap {
+  position: absolute;
+  width: 621px;
+  height: 364px;
+  top: 2260px;
+  left: 1261px;
+  background-image: url(./img/image-68.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .image {
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  left: 50px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-group {
+  position: absolute;
+  width: 339px;
+  height: 124px;
+  top: 42px;
+  left: 855px;
+}
+
+.men .text-wrapper {
+  position: absolute;
+  width: 269px;
+  top: 69px;
+  left: 70px;
+  font-family: "Bokor", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .text-wrapper-2 {
+  position: absolute;
+  width: 210px;
+  top: 0;
+  left: 0;
+  font-family: "Bokor", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .text-wrapper-3 {
+  position: absolute;
+  width: 371px;
+  top: 1110px;
+  left: 90px;
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .p {
+  position: absolute;
+  width: 472px;
+  top: 2104px;
+  left: 49px;
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .text-wrapper-4 {
+  position: absolute;
+  width: 461px;
+  top: 1157px;
+  left: 743px;
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .overlap-2 {
+  position: absolute;
+  width: 1272px;
+  height: 997px;
+  top: 1198px;
+  left: 616px;
+}
+
+.men .overlap-3 {
+  position: absolute;
+  width: 1240px;
+  height: 997px;
+  top: 0;
+  left: 32px;
+}
+
+.men .text-wrapper-5 {
+  position: absolute;
+  width: 458px;
+  top: 1px;
+  left: 782px;
+  transform: rotate(0.25deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .text-wrapper-6 {
+  position: absolute;
+  width: 624px;
+  top: 948px;
+  left: 0;
+  transform: rotate(0.25deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.men .text-wrapper-61 {
+  position: absolute;
+  width: 624px;
+  top: 900px;
+  left: 650px;
+  transform: rotate(0.25deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.men .m {
+  position: absolute;
+  width: 636px;
+  height: 929px;
+  top: 68px;
+  left: 590px;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .text-wrapper-7 {
+  position: absolute;
+  width: 159px;
+  top: 982px;
+  left: 599px;
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.men .img {
+  width: 636px;
+  height: 800px;
+  top: 80px;
+  left: 610px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-group-2 {
+  position: absolute;
+  width: 588px;
+  height: 878px;
+  top: 36px;
+  left: 0;
+  background-image: url(./img/image-31.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .text-wrapper-8 {
+  position: absolute;
+  width: 159px;
+  top: 863px;
+  left: 0;
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.men .image-2 {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 20px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+.men .overlap-4 {
+  position: absolute;
+  width: 1920px;
+  height: 320px;
+  top: 2680px;
+  left: 0;
+}
+
+.men .file {
+  position: absolute;
+  width: 441px;
+  height: 292px;
+  top: 28px;
+  left: 0;
+  object-fit: cover;
+}
+
+.men .image-3 {
+  width: 1920px;
+  height: 312px;
+  top: 8px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .text-wrapper-9 {
+  position: absolute;
+  width: 391px;
+  top: 1px;
+  left: 743px;
+  transform: rotate(0.25deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .info {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 60px;
+  left: 1757px;
+}
+
+.men .overlap-5 {
+  position: absolute;
+  width: 564px;
+  height: 848px;
+  top: 240px;
+  left: -2px;
+}
+
+.men .pants {
+  position: absolute;
+  width: 564px;
+  height: 848px;
+  top: 0;
+  left: 0;
+}
+
+.men .image-4 {
+  width: 562px;
+  height: 848px;
+  top: 0;
+  left: 2px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .image-5 {
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: -10px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-6 {
+  position: absolute;
+  width: 667px;
+  height: 948px;
+  top: 228px;
+  left: 1238px;
+}
+
+.men .main-pants {
+  position: absolute;
+  width: 663px;
+  height: 945px;
+  top: 1px;
+  left: 2px;
+  transform: rotate(0.25deg);
+}
+
+.men .image-6 {
+  width: 667px;
+  height: 948px;
+  top: -1px;
+  left: 610;
+  transform: rotate(-0.25deg);
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .image-7 {
+  width: 85px;
+  height: 18px;
+  top: 920px;
+  left: 572px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-7 {
+  position: absolute;
+  width: 610px;
+  height: 906px;
+  top: 228px;
+  left: 611px;
+}
+
+.men .m-2 {
+  left: 17px;
+  position: absolute;
+  width: 593px;
+  height: 906px;
+  top: 0;
+  background-image: url(./img/image-5-3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .m-3 {
+  left: 0;
+  position: absolute;
+  width: 593px;
+  height: 906px;
+  top: 0;
+  background-image: url(./img/image-5.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .image-8 {
+  width: 85px;
+  height: 18px;
+  top: 874px;
+  left: 508px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-8 {
+  position: absolute;
+  width: 574px;
+  height: 888px;
+  top: 1183px;
+  left: -2px;
+}
+
+.men .image-wrapper {
+  position: absolute;
+  width: 574px;
+  height: 888px;
+  top: 0;
+  left: 0;
+}
+
+.men .image-9 {
+  width: 572px;
+  height: 888px;
+  top: 0;
+  left: 2px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .text-wrapper-10 {
+  position: absolute;
+  width: 132px;
+  top: 869px;
+  left: 0;
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .image-10 {
+  width: 85px;
+  height: 18px;
+  top: 861px;
+  left: 479px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .text-wrapper-11 {
+  position: absolute;
+  width: 599px;
+  top: 2214px;
+  left: 1272px;
+  transform: rotate(0.22deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .text-wrapper-12 {
+  position: absolute;
+  width: 368px;
+  top: 2645px;
+  left: 119px;
+  transform: rotate(0.25deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.men .text-wrapper-13 {
+  position: absolute;
+  width: 315px;
+  top: 2637px;
+  left: 1396px;
+  transform: rotate(0.25deg);
+  font-family: "B612-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.men .img-wrapper {
+  position: absolute;
+  width: 585px;
+  height: 399px;
+  top: 2225px;
+  left: 0;
+  background-image: url(./img/image-34.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .image-11 {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .overlap-9 {
+  position: absolute;
+  width: 590px;
+  height: 437px;
+  top: 2225px;
+  left: 628px;
+  background-image: url(./img/image-37.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .image-12 {
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  left: 50px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .search {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 60px;
+  left: 150px;
+  background-size: 100% 100%;
+}
+
+.men .cart{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 60px;
+  left: 250px;
+}
+
+.men .menu {
+  position: absolute;
+  width: 24px;
+  height: 19px;
+  top: 76px;
+  left: 276px;
+  background-image: url(./img/image-95.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.men .overlap-10 {
+  position: absolute;
+  width: 600px;
+  height: 900px;
+  top: 2500px; 
+  left: 800px;
+}
+
+.men .pants-new {
+  position: absolute;
+  width: 600px;
+  height: 900px;
+  top: 0;
+  left: 0;
+}
+
+.men .image-new {
+  width: 600px;
+  height: 900px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.men .image-new-tag {
+  width: 85px;
+  height: 18px;
+  top: 870px;
+  left: 500px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .menu ul{
+  position: absolute;
+  display: block;
+  font-family: 'Bokor', "sans-serif";
+}
+
+.off-screen-menu {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  transition: .3s ease;
+  font-family: 'Bokor', 'sans-serif';
+} 
+.off-screen-menu.active {
+  right: 0;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+}
+
+.ham-menu {
+  height: 50px;
+  width: 50px; 
+  top: 50px;
+  left: 350px;
+  margin-right: auto;
+  position: relative;
+
+}
+.ham-menu span {
+  height: 2px;
+  width: 100%;
+  max-width: 15px;
+  background-color: black;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+  top: 35%;
+}
+.ham-menu span:nth-child(3) {
+  top: 65%;
+}
+
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, 50%) rotate(-90deg);
+}
+
+.off-screen-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.off-screen-menu li {
+  list-style: none;
+}
+
+.black-menu .exit-menu {
+  top: 10px;
+  transition: .3s ease;
+}
+
+.off-screen-menu .black-menu {
+  color: black;
+  top: 10;
+}
+.off-screen-menu .black-menu span {
+  background-color: black;
+  height: 4px;
+  width: 200px;
+  top: -20px;
+  display: block;
+}
+
+.off-screen-menu .black-menu span:nth-child(1) {
+  top: 50%;
+}
+.off-screen-menu a {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+.off-screen-menu a:hover {
+  color: grey;
+}
+.off-screen-menu a::after {
+  color: white;
+}
+.off-screen-menu li {
+  list-style: none;
+}
+
+
+
+.women {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.women .image-2, 
+.women .image-3, 
+.women .image-4, 
+.women .image-5, 
+.women .image-6 {
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.women .item-added {
+  filter: brightness(0.8) blur(2px);
+}
+  .women .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1920px;
+    height: 3000px;
+    position: relative;
+  }
+  
+  .women .overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 339px;
+    top: 2661px;
+    left: 0;
+  }
+  
+  .women .image {
+    width: 1920px;
+    height: 291px;
+    top: 48px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .women .PROT-MOA-bjeans {
+    position: absolute;
+    width: 572px;
+    top: 29px;
+    left: 163px;
+    font-family: "B612", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .women .text-wrapper {
+    position: absolute;
+    width: 749px;
+    top: 14px;
+    left: 1049px;
+    font-family: "B612", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .women .img {
+    width: 365px;
+    height: 339px;
+    top: 0;
+    left: 1500px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .women .overlap {
+    position: absolute;
+    width: 2062px;
+    height: 1423px;
+    top: 226px;
+    left: 62px;
+  }
+  
+  .women .image-wrapper {
+    position: absolute;
+    width: 732px;
+    height: 456px;
+    top: 60;
+    left: 0;
+    background-image: url(./img/image-59.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .women .overlap-2 {
+    position: absolute;
+    width: 1978px;
+    height: 1405px;
+    top: 11px;
+    left: 84px;
+  }
+
+  .women .p {
+    position: absolute;
+    width: 765px;
+    top: 475px;
+    left: 0;
+    font-family: "B612", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .women .overlap-3 {
+    position: absolute;
+    width: 1239px;
+    height: 1405px;
+    top: 0;
+    left: 739px;
+  }
+  
+  .women .jaded-london {
+    position: absolute;
+    width: 1239px;
+    top: 1353px;
+    left: 0;
+    font-family: "B612", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .women .w {
+    position: absolute;
+    width: 960px;
+    height: 1354px;
+    top: 0;
+    left: 26px;
+    background-image: url(./img/image-53.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .women .image-3 {
+    width: 900px;
+    height: 1350px;
+    top:30px;
+    left: 70px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .women .text-wrapper-2 {
+    position: absolute;
+    width: 613px;
+    top: 1403px;
+    left: 60px;
+    font-family: "B612", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .women .img-wrapper {
+    position: absolute;
+    width: 732px;
+    height: 865px;
+    top: 518px;
+    left: 0;
+    background-image: url(./img/image-50.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .women .image-4 {
+    width: 618px;
+    height: 720px;
+    top: 145px;
+    left: 70px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .women .text-wrapper-3 {
+    position: absolute;
+    width: 177px;
+    top: 33px;
+    left: 875px;
+    font-family: "Bokor", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .women .text-wrapper-4 {
+    position: absolute;
+    width: 269px;
+    top: 102px;
+    left: 911px;
+    font-family: "Bokor", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .women .real-takai-wide-fit {
+    position: absolute;
+    width: 512px;
+    top: 3262px;
+    left: 1316px;
+    font-family: "B612", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .women .plus {
+    position: absolute;
+    width: 56px;
+    height: 45px;
+    top: 1900px;
+    left: -1437px;
+  }
+  
+  .women .info {
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    top: 70px;
+    left: 1781px;
+  }
+  
+  .women .overlap-4 {
+    position: absolute;
+    width: 793px;
+    height: 968px;
+    top: 1666px;
+    left: 0;
+  }
+  
+  .women .protemoa {
+    position: absolute;
+    width: 783px;
+    height: 968px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/image-14.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .women .image-5 {
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: -100px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .women .overlap-5 {
+    position: absolute;
+    width: 687px;
+    height: 969px;
+    top: 1666px;
+    left: 1021px;
+    background-image: url(./img/image-19.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .women .image-6 {
+    width: 100%;
+    height: 100%;
+    top: 50px;
+    left: -100px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .women .search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 60px;
+    left: 150px;
+    background-size: 100% 100%;
+  }
+  
+  .women .cart {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 60px;
+    left: 250px;
+  }
+  
+  .women .menu {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    top: 76px;
+    left: 276px;
+    background-image: url(./img/image-95.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .off-screen-menu {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+    font-family: 'Bokor', 'sans-serif';
+  } 
+  .off-screen-menu.active {
+    right: 0;
+  }
+  
+  nav {
+    display: flex;
+    background-color: white;
+  }
+  
+  

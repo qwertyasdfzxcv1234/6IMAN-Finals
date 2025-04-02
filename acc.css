@@ -1,0 +1,368 @@
+.accessories {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.belt1, .belt2, .belt3 {
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.belt-added {
+  filter: brightness(0.8) blur(2px);
+}
+
+.accessories .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 3000px;
+  position: relative;
+}
+
+.accessories .overlap-group {
+  position: absolute;
+  width: 937px;
+  height: 571px;
+  top: 2064px;
+  left: 82px;
+  background-image: url(./img/image-37.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
+.accessories .image {
+  width: 161px;
+  height: 65px;
+  top: 506px;
+  left: 776px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.accessories .overlap {
+  position: absolute;
+  width: 937px;
+  height: 780px;
+  top: 1218px;
+  left: 82px;
+  background-image: url(./img/image-34.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.accessories .img {
+  width: 160px;
+  height: 104px;
+  top: 676px;
+  left: 764px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.belt1 {
+    display: block; 
+    margin: 0 auto; 
+    position: relative;
+    left: 450px; 
+    z-index: 1; 
+    margin-top: 400px;
+    margin-left: 400px;
+    padding: 50px;
+    width: 700px;
+    height: 450px
+}
+
+.belt2 {
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    z-index: 1; 
+    margin-top: 1300px;
+    right: 600px;
+    margin-left: 450px;
+    padding: 0px;
+    width: 548;
+    height: 456px
+}
+.belt3 {
+    display: block; 
+    margin: 0 auto; 
+    position: relative; 
+    z-index: 1; 
+    margin-top: 2000px;
+    right: 1600px;
+    margin-left: 450px;
+    padding: 0px;
+    width: 548;
+    height: 456px
+}
+.accessories .image-wrapper {
+  position: absolute;
+  width: 1200px;
+  height: 688px;
+  top: 437px;
+  left: 82px;
+  background-image: url(./img/image-68.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.accessories .image-2 {
+  width: 165px;
+  height: 64px;
+  top: 624px;
+  left: 772px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.accessories .text-wrapper {
+  position: absolute;
+  width: 237px;
+  top: 166px;
+  left: 887px;
+  text-shadow: 8px 4px 4px #00000040;
+  font-family: "Bokor", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accessories .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 312px;
+  top: 2688px;
+  left: 0;
+}
+
+.accessories .file {
+  position: absolute;
+  width: 441px;
+  height: 292px;
+  top: 20px;
+  left: 0;
+  object-fit: cover;
+}
+
+.accessories .image-3 {
+  width: 1920px;
+  height: 312px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.accessories .info {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  top: 60px;
+  left: 1757px;
+}
+
+.accessories .p {
+  position: absolute;
+  width: 418px;
+  top: 2229px;
+  left: 1192px;
+  transform: rotate(0.25deg);
+  font-family: "B612", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accessories .jaded-leather-belt {
+  position: absolute;
+  width: 391px;
+  top: 1552px;
+  left: 1192px;
+  transform: rotate(0.25deg);
+  font-family: "B612", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accessories .text-wrapper-2 {
+  position: absolute;
+  width: 315px;
+  top: 756px;
+  left: 1150px;
+  transform: rotate(0.25deg);
+  font-family: "B612", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.accessories .text-wrapper-3 {
+  position: absolute;
+  width: 210px;
+  top: 42px;
+  left: 855px;
+  font-family: "Bokor", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accessories .search {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 73px;
+  left: 92px;
+  background-size: 100% 100%;
+}
+
+.accessories .cart {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 73px;
+  left: 184px;
+  background-image: url(./img/shopping-cart.svg);
+  background-size: 100% 100%;
+}
+
+.accessories .menu {
+  position: absolute;
+  width: 24px;
+  height: 19px;
+  top: 76px;
+  left: 276px;
+  background-image: url(./img/image-95.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.off-screen-menu {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  transition: .3s ease;
+  font-family: 'Bokor', 'sans-serif';
+} 
+.off-screen-menu.active {
+  right: 0;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+}
+
+.ham-menu {
+  height: 50px;
+  width: 50px; 
+  top: 50px;
+  left: 350px;
+  margin-right: auto;
+  position: relative;
+
+}
+.ham-menu span {
+  height: 2px;
+  width: 100%;
+  max-width: 15px;
+  background-color: black;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+  top: 35%;
+}
+.ham-menu span:nth-child(3) {
+  top: 65%;
+}
+
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, 50%) rotate(-90deg);
+}
+
+.off-screen-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.off-screen-menu li {
+  list-style: none;
+}
+
+.black-menu .exit-menu {
+  top: 10px;
+  transition: .3s ease;
+}
+
+.off-screen-menu .black-menu {
+  color: black;
+  top: 10;
+}
+.off-screen-menu .black-menu span {
+  background-color: black;
+  height: 4px;
+  width: 200px;
+  top: -20px;
+  display: block;
+}
+
+.off-screen-menu .black-menu span:nth-child(1) {
+  top: 50%;
+}
+.off-screen-menu a {
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+.off-screen-menu a:hover {
+  color: grey;
+}
+.off-screen-menu a::after {
+  color: white;
+}
+.off-screen-menu li {
+  list-style: none;
+}
